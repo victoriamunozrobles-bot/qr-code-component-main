@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+.main {
+  background-color: #d5e1ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main__content {
+  background-color: hsl(0, 0%, 100%);
+  width: 20%;
+  border-radius: 5%;
+}
+
+.main__image {
+  padding: 5%;
+  object-fit: contain;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 9%;
+}
+
+.main__title {
+  text-align: center;
+  padding: 5%;
+  padding-top: 0%;
+  padding-bottom: 0;
+  margin: 0;
+  font-family: "Outfit";
+  color: #1f314f;
+}
+.main__text {
+  text-align: center;
+  padding: 5%;
+  padding-top: 0%;
+  margin: 0;
+  font-family: "Outfit";
+  color: #68778d;
+}
+
+@media screen and (max-width: 720px) {
+  .main__content {
+    width: 85%;
+  }
+}
